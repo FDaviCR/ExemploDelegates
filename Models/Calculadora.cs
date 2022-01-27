@@ -15,5 +15,15 @@ namespace ExemploDelegates.Models
         public static void Subtrair(int x, int y) {
             Console.WriteLine($"Subtração: {x-y}");
         }
+
+        public static void Multiplicar(int x, int y)
+        {
+            Console.WriteLine($"Subtração: {x * y}");
+        }
+
+        public static void Dividir(int x, int y)
+        {
+            Console.WriteLine($"Subtração: {x / y}");
+        }
     }
 }
